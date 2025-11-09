@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laundary Wallah / Laundary Mart</title>
+  </head>
+  <body>
+    <header>
+      <h1 style="text-align: center;">Welcome to laundary wallah / laundary mart</h1>
+    </header>
+    <!-- main section  -->
+    <main>
+      <div>
+        <h2>About us !</h2>
+        <p>
+          A story about your business: how you started, your mission, local
+          roots. Key differentiators: e.g., “Family-run since 2015”, “Eco
+          detergent”, “Professional finish”, “Pickup in 30 min radius”. Include
+          team photos or service person image to build trust. Testimonials or
+          ratings.
+        </p>
+      </div>
+      <div>
+        <img
+          src="https://t4.ftcdn.net/jpg/04/27/21/69/240_F_427216979_4arPHw2nV0S0d0ZW1eGjL2nWHzXyOedJ.jpg"
+          alt=""
+        />
+      </div>
+      <div>
+        <h2>Our service</h2>
+        <ul>
+          <li>Washing and Drying</li>
+          <li>Ironing and Folding</li>
+          <li>Dry Cleaning</li>
+          <li>Stain Removal</li>
+          <li>Express Services</li>
+          <li>Special Garment charset</li>
+          <li>And more...</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Price List</h2>
+        <table border="2">
+          <tr>
+            <th>Service</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <td>Washing and Drying</td>
+            <td>$5 per load</td>
+          </tr>
+          <tr>
+            <td>Ironing and Folding</td>
+            <td>$2 per item</td>
+          </tr>
+          <tr>
+            <td>Dry Cleaning</td>
+            <td>$10 per item</td>
+          </tr>
+          <tr>
+            <td>Stain Removal</td>
+            <td>$7 per item</td>
+          </tr>
+          <tr>
+            <td>Express Services</td>
+            <td>$15 extra</td>
+          </tr>
+        </table>
+      </div>
+      <h3>Operating Hours</h3>
+      <p>Monday-Saturday : 8am to 5pm</p>
+      <p>Sunday : Closed</p>
+      <!-- Booking Section  -->
+      <div>
+        <h2>Book a Service</h2>
+        <form>
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" required /><br /><br />
+
+          <label for="contact">Contact Number:</label><br />
+          <input type="tel" id="contact" name="contact" required /><br /><br />
+
+          <label for="service">Select Service:</label><br />
+          <select id="service" name="service" required>
+            <option value="washing">Washing and Drying</option>
+            <option value="ironing">Ironing and Folding</option>
+            <option value="drycleaning">Dry Cleaning</option>
+            <option value="stainremoval">Stain Removal</option>
+            <option value="express">Express Services</option>
+          </select><br /><br />
+
+          <label for="date">Preferred Date:</label><br />
+          <input type="date" id="date" name="date" required /><br /><br />
+
+          <input type="submit" value="Book Now" />
+        </form>
+    </main>
+    <footer>
+      <p> Contact us at : info@Laundarymart.com </p>
+    </footer>
+  </body>
+</html>
