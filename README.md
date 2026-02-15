@@ -1,2 +1,2 @@
 # LaundaryAssignment
-this Repo Represent the My first Assignment : Laundary Wallah Website Using only html
+this Repo Represent  Assignment : Laundary Wallah Website Using only html
